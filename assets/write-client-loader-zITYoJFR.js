@@ -1,0 +1,1 @@
+import{t as e}from"./api-WcZWOnzy.js";async function t(){return{categories:(await e(`/api/categories`)).categories}}export{t as clientLoader};

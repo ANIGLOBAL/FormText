@@ -1,0 +1,1 @@
+import{t as e}from"./api-WcZWOnzy.js";async function t({params:t}){let n=typeof t.username==`string`?t.username:``,r=await e(`/api/users/${encodeURIComponent(n)}/posts`);return{author:r.author,posts:r.posts}}export{t as clientLoader};

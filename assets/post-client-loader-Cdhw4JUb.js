@@ -1,0 +1,1 @@
+import{t as e}from"./api-WcZWOnzy.js";async function t({params:t}){let n=(typeof t.address==`string`?t.address:``).replace(/^@/,``);return{post:(await e(`/api/posts/${n}`)).post}}export{t as clientLoader};

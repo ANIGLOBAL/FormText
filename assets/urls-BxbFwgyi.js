@@ -1,0 +1,1 @@
+function e(e,t=`/write`){let n=new URL(e.url).searchParams.get(`next`);return typeof n==`string`&&n.startsWith(`/`)&&!n.startsWith(`//`)?n:t}export{e as t};

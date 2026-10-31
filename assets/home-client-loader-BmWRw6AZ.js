@@ -1,0 +1,1 @@
+import{t as e}from"./api-WcZWOnzy.js";async function t(){let[t,n]=await Promise.all([e(`/api/posts`),e(`/api/categories`)]);return{posts:t.posts,categories:n.categories}}export{t as clientLoader};

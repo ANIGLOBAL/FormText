@@ -1,0 +1,1 @@
+function e(e){return e.replace(/<br\s*\/?>(\s*)/gi,` `).replace(/<\/(p|h2|h3|li|blockquote|div)>/gi,` `).replace(/<[^>]*>/g,``).replaceAll(`&nbsp;`,` `).replaceAll(`&amp;`,`&`).replaceAll(`&lt;`,`<`).replaceAll(`&gt;`,`>`).replace(/\s+/g,` `).trim()}export{e as t};

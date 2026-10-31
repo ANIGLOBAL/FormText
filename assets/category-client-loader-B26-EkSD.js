@@ -1,0 +1,1 @@
+import{t as e}from"./api-WcZWOnzy.js";async function t({params:t}){let n=typeof t.slug==`string`?t.slug:``,r=await e(`/api/categories/${n}/posts`);return{category:r.category,posts:r.posts}}export{t as clientLoader};
